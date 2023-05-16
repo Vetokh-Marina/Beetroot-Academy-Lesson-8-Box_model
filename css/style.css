@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box; /* Визначає блокову модель */
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    min-height: 100vh;
+    font-size: 16px;
+    background: linear-gradient(#F1F4F5, #7A9C9E);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.section__title {
+    width: 600px;
+    font-size: 1.4em;
+    color: #126A88;
+    padding: 30px;
+    border: 3px solid #1f2020;
+    background: aquamarine;
+}
+.section__title_border {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.section__title_content {
+    box-sizing: content-box;
+    margin-top: 20px;
+}
+.section__text{
+    margin-bottom: 40px;
+}
+.section_second{
+    background: #126A88;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.section__title_none{
+    width: 600px;
+    font-size: 1.4em;
+    color: #1f2020;
+    padding: 0;
+    margin: 10px;
+    border: 0px solid rgb(29, 89, 179);
+    background: aquamarine;
+}
